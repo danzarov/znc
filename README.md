@@ -1,6 +1,6 @@
 # znc - docker-compose to run znc
 
-`git clone git@github.com:danzarov/znc.git`
+`git clone https://github.com/danzarov/znc.git`
 
 `cd znc && mkdir znc-configs`
 
