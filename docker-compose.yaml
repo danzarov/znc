@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  znc:
+    image: znc
+    volumes:
+      - "./znc-configs:/znc-data"      
+    ports:
+      - ${HOST_PORT}:${CONTAINER_PORT}
